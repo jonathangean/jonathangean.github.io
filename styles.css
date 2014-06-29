@@ -1,0 +1,14 @@
+@import url(http://fonts.googleapis.com/css?family=Fenix);
+/*<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
+*/
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+sans);
+body {
+font-family: 'Quattrocento Sans', sans-serif;}
+p {
+font-family: 'Quattrocento Sans', sans-serif;}
+a {
+  color: black;
+  text-decoration: none; /* no underline */
+}
+div {
+}
