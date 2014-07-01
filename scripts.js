@@ -12,17 +12,44 @@
 
 $(function(){
 
-  $("#projects").click(function(){
-    $("#projects-list").toggle()
-  });
+  // $("#projects").click(function(){
+  //   $("#projects-list").toggle()
+  // });
 
 
-  $("#projects-list").toggle()
+  // $("#projects-list").toggle()
+  $('#text-picture').hide();
+  $('#sound-picture').hide();
 
-  $("#contact-h1").click(function(){
+
+  $("#contact-h3").click(function(){
     $("#contacts").toggle()
   });
 
+  $("#show-resume").click(function(){
+    $("#resume").toggle()
+  });
+
+  $("#resume").toggle()
 
   $("#contacts").toggle()
+
+  $("#show-text-generator-picture").mouseover(function(){
+    $('#resume').hide();
+    $('#text-picture').fadeIn(200);
+  })
+
+   $("#show-text-generator-picture").mouseout(function(){
+    $('#text-picture').hide();
+  })
+
+   $("#show-twixing-board-picture").mouseover(function(){
+    $('#resume').hide();
+    $('#sound-picture').fadeIn(200);
+  })
+
+   $("#show-twixing-board-picture").mouseout(function(){
+    $('#sound-picture').hide();
+  })
+
 });
